@@ -1,0 +1,51 @@
+.app-sidebar {
+  width: 320px; /* Adjust width as needed */
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  padding: 20px 15px; /* Adjust padding (top/bottom, left/right) */
+  position: fixed; /* Fixed position relative to the viewport */
+  top: 0; /* Sticks to the top */
+  left: 0; /* Sticks to the left */
+  bottom: 0; /* Stretches to the bottom */
+  overflow-y: auto; /* Enables vertical scrolling */
+}
+
+.app-sidebar .nav-link {
+  display: block;
+  padding: 10px 0; /* Adjust vertical padding for each link */
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.app-sidebar .nav-link:hover {
+  background-color: #555; /* Hover background color */
+}
+
+/* Example: Collapsible Nav Group styling */
+.app-sidebar .nav-group {
+  margin-top: 20px;
+}
+
+.app-sidebar .nav-group label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.app-sidebar .nav-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.app-sidebar .nav-list li {
+  margin-bottom: 10px;
+}
+
+.app-sidebar .nav-list li a {
+  display: block;
+  padding: 5px 0; /* Adjust vertical padding for each list item */
+  color: #ccc;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}

@@ -1,0 +1,46 @@
+<!--<div *ngIf="test == true; then b2; else b1">hello world</div>
+<div *ngIf="moy >= 10; else b1">Good</div>
+<ng-template #b1>
+  <div>Bad</div>
+</ng-template>
+<ng-template #b2>
+  <div>hi</div>
+</ng-template>
+<div [ngSwitch]="color">
+  <p *ngSwitchCase="'red'">red</p>
+  <p *ngSwitchCase="'green'">green</p>
+</div>
+<div *ngFor="let item of list">
+  <h1>{{ item.name }}</h1>
+  <h1>{{ item.age }}</h1>
+</div>
+<p [ngStyle]="setStyle()">Hi St</p>
+<h1 [ngClass]="classBg">HH</h1>
+<p [ngClass]="setClass()">hhhhh</p>
+<input
+  type="text"
+  name="val"
+  [ngModel]="inputValue"
+  (ngModelChange)="changeValue()"
+/>
+<form [FormGroup]="form">
+  <clr-input-container>
+    <label>Full name</label>
+    <input placeholder="Full name" clrInput name="name" required />
+    <clr-control-helper>Helper text</clr-control-helper>
+    <clr-control-error>This field is required!</clr-control-error>
+  </clr-input-container>
+  <clr-input-container>
+    <label>Age</label>
+    <input placeholder="Age" clrInput age="" required />
+    <clr-control-helper></clr-control-helper>
+    <clr-control-error>This field is required!</clr-control-error>
+  </clr-input-container>
+  <clr-input-container>
+    <label>Email</label>
+    <input placeholder="Email" clrInput email="" required />
+    <clr-control-helper></clr-control-helper>
+    <clr-control-error>This field is required!</clr-control-error>
+  </clr-input-container>
+</form>-->
+<router-outlet></router-outlet>
